@@ -9,7 +9,7 @@ environment:
   sdk: ^3.11.0
 
 dependencies:
-  zuraffa: ^6.2.2
+  zuraffa: ^7.0.0
 
 dev_dependencies:
   lints: ^4.0.0

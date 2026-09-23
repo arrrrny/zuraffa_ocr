@@ -9,7 +9,7 @@ environment:
   sdk: ^3.11.0
 
 dependencies:
-  zuraffa: ^6.2.2
+  zuraffa: ^7.0.0
   zuraffa_ocr: ^0.1.0
 
 dev_dependencies:
