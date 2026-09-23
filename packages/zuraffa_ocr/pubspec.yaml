@@ -2,7 +2,7 @@
 name: zuraffa_ocr
 description: >-
   Typed OCR support for the Zuraffa ecosystem: a pure-Dart port, recognition lifecycle, and typed failures behind an injected platform channel with federated adapters.
-version: 0.1.0
+version: 0.1.1
 homepage: https://zuraffa.com
 
 environment:
