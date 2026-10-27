@@ -2,14 +2,14 @@
 name: zuraffa_ocr
 description: >-
   Typed OCR support for the Zuraffa ecosystem: a pure-Dart port, recognition lifecycle, and typed failures behind an injected platform channel with federated adapters.
-version: 0.1.1
+version: 7.2.0
 homepage: https://zuraffa.com
 
 environment:
   sdk: ^3.11.0
 
 dependencies:
-  zuraffa: ^7.0.0
+  zuraffa: ^7.2.0
 
 dev_dependencies:
   lints: ^4.0.0
@@ -22,3 +22,8 @@ topics:
   - ocr
   - clean-architecture
   - zuraffa
+
+# Fleet-wide xml policy: pin the override to the latest xml so graphs that
+# still transitively pull the abandoned minio (xml 6.x) resolve cleanly.
+dependency_overrides:
+  xml: 7.1.0
