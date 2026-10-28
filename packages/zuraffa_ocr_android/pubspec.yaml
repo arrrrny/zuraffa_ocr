@@ -2,16 +2,16 @@
 name: zuraffa_ocr_android
 description: >-
   Typed OCR support for the Zuraffa ecosystem: a pure-Dart port, recognition lifecycle, and typed failures behind an injected platform channel with federated adapters.
-version: 7.2.0
+version: 7.3.0
 homepage: https://zuraffa.com
 
 environment:
   sdk: ^3.11.0
 
 dependencies:
-  zuraffa: ^7.2.0
-  zuraffa_ocr: ^7.2.0
-  zuraffa_ocr_platform: ^7.2.0
+  zuraffa: ^7.3.0
+  zuraffa_ocr: ^7.3.0
+  zuraffa_ocr_platform: ^7.3.0
 
 dev_dependencies:
   lints: ^4.0.0
@@ -26,6 +26,8 @@ dependency_overrides:
     path: ../zuraffa_ocr_platform
 
   xml: 7.1.0
+  zuraffa:
+    path: ../../../zuraffa
 repository: https://github.com/arrrrrny/zuraffa_ocr
 issue_tracker: https://github.com/arrrrrny/zuraffa_ocr/issues
 
