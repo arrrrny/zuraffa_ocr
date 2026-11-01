@@ -18,13 +18,6 @@ dev_dependencies:
   test: ^1.25.0
 
 dependency_overrides:
-  # Local development only — resolve the in-family siblings to this
-  # checkout; stripped on publish.
-  zuraffa_ocr:
-    path: ../zuraffa_ocr
-  zuraffa_ocr_platform:
-    path: ../zuraffa_ocr_platform
-
   xml: 7.1.0
 repository: https://github.com/arrrrrny/zuraffa_ocr
 issue_tracker: https://github.com/arrrrrny/zuraffa_ocr/issues
