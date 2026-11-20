@@ -19,8 +19,8 @@ dev_dependencies:
 
 dependency_overrides:
   xml: 7.1.0
-repository: https://github.com/arrrrrny/zuraffa_ocr
-issue_tracker: https://github.com/arrrrrny/zuraffa_ocr/issues
+repository: https://github.com/arrrrny/zuraffa_ocr
+issue_tracker: https://github.com/arrrrny/zuraffa_ocr/issues
 
 topics:
   - ocr

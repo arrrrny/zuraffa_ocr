@@ -15,8 +15,8 @@ dev_dependencies:
   lints: ^4.0.0
   test: ^1.25.0
 
-repository: https://github.com/arrrrrny/zuraffa_ocr
-issue_tracker: https://github.com/arrrrrny/zuraffa_ocr/issues
+repository: https://github.com/arrrrny/zuraffa_ocr
+issue_tracker: https://github.com/arrrrny/zuraffa_ocr/issues
 
 topics:
   - ocr
